@@ -7,10 +7,10 @@ run command: ``` ts-node index.ts ```
 alternatively: ``` tsc index.ts; node index.js```
 
 **You need to have a config.json file in your local directory**
-** My formatting for config.json: **
+My formatting for config.json:
 ```
 {
-  "API_KEY": "YOUR API KEY HERE"
+  "API_KEY": "your_api_key"
 }
 ```
 
