@@ -1,0 +1,38 @@
+[
+    {
+        "alias": "UCSD",
+        "uri_lookup": "University%20of%20California-San%20Diego"
+    },
+    {
+        "alias": "UCB",
+        "uri_lookup": "University%20of%20California-Berkeley"
+    },
+    {
+        "alias": "UCSF",
+        "uri_lookup": "University%20of%20California-San%20Francisco"
+    },
+    {
+        "alias": "UCSB",
+        "uri_lookup": "University%20of%20California-Santa%20Barbara"
+    },
+    {
+        "alias": "UCD",
+        "uri_lookup": "University%20of%20California-Davis"
+    },
+    {
+        "alias": "UCI",
+        "uri_lookup": "University%20of%20California-Irvine"
+    },
+    {
+        "alias": "UCR",
+        "uri_lookup": "University%20of%20California-Riverside"
+    },
+    {
+        "alias": "UCM",
+        "uri_lookup": "University%20of%20California-Merced"
+    },
+    {
+        "alias": "UCSC",
+        "uri_lookup": "University%20of%20California-Santa%20Cruz"
+    }
+]
