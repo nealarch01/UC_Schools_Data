@@ -3,7 +3,7 @@ Getting data of each UC school saved in json format
 To run index.ts you will need to have TypeScript and ts-node installed
 
 
-run command: ``` ts-node index.ts ``` \n
+run command: ``` ts-node index.ts ``` \
 alternatively: ``` tsc index.ts; node index.js```
 
 **You need to have a config.json file in your local directory**
@@ -14,7 +14,7 @@ My formatting for config.json:
 }
 ```
 
-Link to request api key: https://collegescorecard.ed.gov/data/documentation/
+Link to request api key: https://collegescorecard.ed.gov/data/documentation/ \
 Link to documentation: https://github.com/RTICWDT/open-data-maker/blob/master/API.md
 
 Sample data:
@@ -41,6 +41,7 @@ Sample data:
   "humanities": 0,
   "psychology": 0.0492,
   ...
+}
  "programs": {
     "cip_4_digit": [
        {
