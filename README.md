@@ -15,6 +15,7 @@ My formatting for config.json:
 ```
 
 Link to request api key: https://collegescorecard.ed.gov/data/documentation/
+Link to documentation: https://github.com/RTICWDT/open-data-maker/blob/master/API.md
 
 Sample data:
 ```
