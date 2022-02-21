@@ -2,7 +2,7 @@
 Getting data of each UC school saved in json format
 To run index.ts you will need to have TypeScript and ts-node installed
 
-
+```npm install``` to get dependencies
 run command: ``` ts-node index.ts ``` \
 alternatively: ``` tsc index.ts; node index.js```
 
