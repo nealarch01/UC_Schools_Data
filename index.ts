@@ -3,7 +3,7 @@ import { writeFileSync } from 'fs';
 import config from './config.json';
 import uc_school_lookup_data from './UCs/uc_lookup_data.json';
 
-async function getCaliforniaColleges_UC(): Promise<void> {
+export async function getCaliforniaColleges_UC(): Promise<void> {
     try {
         uc_school_lookup_data.forEach(async (element: any) => {
             const fields: string = `school.name=${element.uri_lookup}`
