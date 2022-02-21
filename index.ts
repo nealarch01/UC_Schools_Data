@@ -3,7 +3,7 @@ import { writeFileSync } from 'fs';
 import config from './config.json';
 import uc_school_lookup_data from './UCs/uc_lookup_data.json';
 
-async function getCaliforniaColleges_UC() {
+async function getCaliforniaColleges_UC(): Promise<void> {
     try {
         uc_school_lookup_data.forEach(async (element: any) => {
             const fields: string = `school.name=${element.uri_lookup}`
@@ -19,11 +19,11 @@ async function getCaliforniaColleges_UC() {
     }
 }
 
-function writeDataToFile(filename: string, query_data: string) {
+function writeDataToFile(filename: string, query_data: string): void {
     writeFileSync(`./${filename}`, query_data); // write to current directory of index.ts
 }
 
-async function main() {
+async function main(): Promise<void> {
     await getCaliforniaColleges_UC();
 }
 
